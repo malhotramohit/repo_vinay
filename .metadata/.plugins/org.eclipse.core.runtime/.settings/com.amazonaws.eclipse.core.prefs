@@ -1,0 +1,9 @@
+3fe34cbc-9ced-4170-95ca-38bc3925db37\:credentialProfileName=Mohit
+792e1b8a-a993-40c8-bd65-80fa2c0634de\:credentialProfileName=default
+cognitoIdentityId=us-east-1\:5806ad2b-3215-4eff-ae41-9c403cd5fe46
+cognitoIdentityPoolId=us-east-1\:d4fdc07f-94fd-4cc6-94fb-f903657f05c1
+credentialProfileAccountIds=3fe34cbc-9ced-4170-95ca-38bc3925db37|792e1b8a-a993-40c8-bd65-80fa2c0634de
+currentAccount=792e1b8a-a993-40c8-bd65-80fa2c0634de
+currentDefaultAccount=
+ec2PreferencesImported=true
+eclipse.preferences.version=1
