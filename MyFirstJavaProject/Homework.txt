@@ -1,3 +1,4 @@
 1) https://gyansetu-java.gitbook.io/core-java/flow-control/for-loop#problems
 2) Give a num , check it is pallindrome or not.
 3) Given a number , check prime or not
+4) https://gyansetu-java.gitbook.io/core-java/method-overlaoding

@@ -1,0 +1,10 @@
+
+public class Pallindrome {
+	public static void main(String[] args) {
+		
+		int num = 123;
+		
+		//      1*100 +  2*10 + 3*1
+
+	}
+}

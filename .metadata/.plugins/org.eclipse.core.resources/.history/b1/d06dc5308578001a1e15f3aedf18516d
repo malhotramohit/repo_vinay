@@ -1,0 +1,15 @@
+
+public class Methods {
+	
+	public static void main(String[] args) {
+		int num = 4;
+		
+		int sqOfNum  = getSquare(num);
+		
+	}
+	
+	public static int getSquare(int n) {
+		return n*n;
+	}
+
+}

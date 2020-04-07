@@ -1,0 +1,26 @@
+
+public class Calculator {
+
+	public static void main(String[] args) {
+
+		//
+		int a = 4;
+		int b = 6;
+
+		// ?
+		// swap : a =6, b=4
+
+		System.out.println(a);
+		System.out.println(b);
+
+	}
+
+	public static int add(int a, int b) {
+		return a + b;
+	}
+	
+	public static int add(int a, int b , int c) {
+		return a + b + c;
+	}
+
+}
