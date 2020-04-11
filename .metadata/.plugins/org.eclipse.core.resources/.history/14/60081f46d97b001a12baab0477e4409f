@@ -1,0 +1,10 @@
+
+public class ArrayTest2 {
+	public static void main(String[] args) {
+
+		double[] arrayOfSalaries =
+			{ 23323.323, 3454545.5454, 10000.34, 7577.678768, 66574656.6456, 787897.55 };
+
+	}
+
+}

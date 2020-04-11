@@ -1,0 +1,23 @@
+
+public class ArrayTest1 {
+	
+	public static void main(String[] args) {
+		
+		//syntax
+		
+		int[] productionInDays = {25,26,28,29,30};
+		// 
+		 // 2000  2004  2008   2012
+		//  25     26    28    29  30
+		//  0      1     2     3    4
+		
+		System.out.println("value at index 3 : " + productionInDays[3]);
+		
+		System.out.println("value at index 89 : "+productionInDays[89]);
+		
+		System.out.println("value at index -1 : "+productionInDays[-1]);
+
+		
+	}
+
+}

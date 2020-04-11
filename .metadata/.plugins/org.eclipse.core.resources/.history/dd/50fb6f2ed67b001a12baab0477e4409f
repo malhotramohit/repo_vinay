@@ -1,0 +1,34 @@
+
+public class ArrayTest1 {
+
+	public static void main(String[] args) {
+
+		// way 2
+		double[] arraysOfSalaries = new double[5];
+
+		// syntax
+
+	}
+
+	public static void testcase1() {
+		// way 1
+		// logical collection of related items
+		int[] productionInDays = { 25, 26, 28, 29, 30, 45, 56, 78 };
+
+		//
+		// 2000 2004 2008 2012
+		// 25 26 28 29 30
+		// 0 1 2 3 4
+
+		System.out.println("value at index 3 : " + productionInDays[3]);
+
+		// System.out.println("value at index 89 : "+productionInDays[89]);
+
+		// System.out.println("value at index -1 : "+productionInDays[-1]);
+
+		System.out.println("len of array is :" + productionInDays.length);
+
+		System.out.println("last value of array is : " + productionInDays[productionInDays.length - 1]);
+	}
+
+}

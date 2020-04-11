@@ -1,0 +1,26 @@
+
+public class Author {
+
+	String name;
+	int age;
+	String lang;
+
+	public static void main(String[] args) {
+
+		Author author1 = new Author();
+		author1.age = 23;
+		author1.name = "Mohit";
+		author1.lang = "java";
+
+		Author author2 = new Author();
+		author2.age = 24;
+		author2.name = "Rohit";
+		author2.lang = "c++";
+
+		System.out.println("name  :: " + author1.name);
+		System.out.println("age  :: " + author1.age);
+		System.out.println("lang  :: " + author1.lang);
+
+	}
+
+}
