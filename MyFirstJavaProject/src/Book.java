@@ -3,6 +3,7 @@ public class Book {
 
 	String name; // 4bytes
 	int price; // 4bbytes
+	Author author;
 
 	public static void main(String[] args) {
 

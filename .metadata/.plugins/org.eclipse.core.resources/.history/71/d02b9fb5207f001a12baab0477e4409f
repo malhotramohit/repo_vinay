@@ -1,0 +1,44 @@
+
+public class Account {
+
+	int accNum;
+	String accType;
+	int numOfDependents;
+
+	// public Account() {
+	//
+	// }
+
+	static {
+		System.out.println("DB check is runnig");
+
+	}
+
+	public Account(int accn, String acType) {
+		accNum = accn;
+		accType = acType;
+	}
+
+	public Account(int accn, String acType, int numOfDep) {
+		accNum = accn;
+		accType = acType;
+		numOfDependents = numOfDep;
+	}
+
+	public static void main(String[] args) {
+
+		// Constructor
+		// are special methods
+		// used to initialize objects
+		// 1) They have same name as class name
+		// 2) They don;t have any return type
+		// 3) it cannot static
+
+		Account account1 = new Account(23, "SB");
+
+		System.out.println(account1.accNum);
+		System.out.println(account1.accType);
+
+	}
+
+}

@@ -4,18 +4,28 @@ public class Author {
 	String name;
 	int age;
 	String lang;
+	
+	static String type = "Human";
 
 	public static void main(String[] args) {
 
+		
+		
+		//JVM -> Author.main()
 		Author author1 = new Author();
 		author1.age = 23;
 		author1.name = "Mohit";
 		author1.lang = "java";
+		
+		System.out.println(Author.type);
+		
 
 		Author author2 = new Author();
 		author2.age = 24;
 		author2.name = "Rohit";
 		author2.lang = "c++";
+		
+		//author2.type = "Dog";
 
 		Author author3 = new Author();
 		author3.age = 25;
@@ -36,6 +46,8 @@ public class Author {
 		System.out.println("name  :: " + author.name);
 		System.out.println("age  :: " + author.age);
 		System.out.println("lang  :: " + author.lang);
+		System.out.println("type  :: " + Author.type);
+
 	}
 
 }

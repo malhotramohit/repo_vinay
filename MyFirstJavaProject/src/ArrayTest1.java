@@ -3,7 +3,7 @@ public class ArrayTest1 {
 
 	// non-static plus outside method
 	double[] arrays;
-	
+
 	public static void main(String[] args) {
 
 		double[] arraysOfSalaries = createArray();
@@ -15,7 +15,8 @@ public class ArrayTest1 {
 		// way 2
 
 		arraysOfYoExps[0] = 23.34; // if 0 then 10000
-		arraysOfYoExps[1] = 1.4 * 5000; // odd then odd num * 5000
+		arraysOfYoExps[1] = 1.4 * 5000; // o
+		// dd then odd num * 5000
 		arraysOfYoExps[2] = 2.6 * 3000; // even the even num * 3000
 		arraysOfYoExps[3] = 3.8 * 5000; // even the even num * 3000
 		arraysOfYoExps[4] = 4.4 * 3000; // even the even num * 3000
@@ -36,15 +37,16 @@ public class ArrayTest1 {
 
 	public static double[] createArray() {
 
+		// 
 		double[] salaries = new double[100];
 
 		// way 2
 
-//		arraysOfSalaries[0] = 0; // if 0 then 10000
-//		arraysOfSalaries[1] = 1 * 5000; // odd then odd num * 5000
-//		arraysOfSalaries[2] = 2 * 3000; // even the even num * 3000
-//		arraysOfSalaries[3] = 3 * 5000; // even the even num * 3000
-//		arraysOfSalaries[4] = 4 * 3000; // even the even num * 3000
+		// arraysOfSalaries[0] = 0; // if 0 then 10000
+		// arraysOfSalaries[1] = 1 * 5000; // odd then odd num * 5000
+		// arraysOfSalaries[2] = 2 * 3000; // even the even num * 3000
+		// arraysOfSalaries[3] = 3 * 5000; // even the even num * 3000
+		// arraysOfSalaries[4] = 4 * 3000; // even the even num * 3000
 
 		for (int index = 0; index < salaries.length; index++) {
 			if (index == 0) {

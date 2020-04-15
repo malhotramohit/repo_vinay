@@ -1,0 +1,25 @@
+
+public class Account {
+
+	int accNum;
+	String accType;
+
+	public Account() {
+
+	}
+
+	public static void main(String[] args) {
+
+		// Constructor
+		// are special methods
+		// used to initialize objects
+		// 1) They have same name as class name
+		// 2) They don;t have any return type
+
+		Account account1 = new Account();
+
+		System.out.println(account1.accNum);
+
+	}
+
+}
