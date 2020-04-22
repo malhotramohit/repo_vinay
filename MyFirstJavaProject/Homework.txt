@@ -8,3 +8,5 @@ double[] arrayOfSalaries =
 			
 7) bubble sort,remove duplicate from an array
 8) https://gyansetu-java.gitbook.io/core-java/7-variables
+
+9) https://www.ntu.edu.sg/home/ehchua/programming/java/J3f_OOPExercises.html

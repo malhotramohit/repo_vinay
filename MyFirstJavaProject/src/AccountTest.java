@@ -13,6 +13,7 @@ public class AccountTest {
 		Account account1 = new Account(23, "SB");
 
 		System.out.println(account1.accNum);
+		account1.accNum =4545454;
 		System.out.println(account1.accType);
 
 	}

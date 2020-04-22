@@ -1,9 +1,0 @@
-1) https://gyansetu-java.gitbook.io/core-java/flow-control/for-loop#problems
-2) Give a num , check it is pallindrome or not.
-3) Given a number , check prime or not
-4) https://gyansetu-java.gitbook.io/core-java/method-overlaoding
-5) create 3 method , one will give min , other will give the max and other will print
-double[] arrayOfSalaries =
-			{ 23323.323, 3454545.5454, 10000.34, 7577.678768, 66574656.6456, 787897.55 };
-			
-7) bubble sort,remove duplicate from an array
